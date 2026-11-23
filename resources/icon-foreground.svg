@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 432" width="432" height="432">
+  <defs>
+    <filter id="fgShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <g filter="url(#fgShadow)">
+    <!-- Back pocket -->
+    <path d="M 116 150 C 116 134 129 122 145 122 L 287 122 C 303 122 316 134 316 150 L 316 170 L 116 170 Z" fill="#E2E8F0" opacity="0.9" />
+    
+    <!-- Main Wallet Body -->
+    <rect x="104" y="142" width="224" height="156" rx="26" fill="#FFFFFF" />
+
+    <!-- Wallet Clasp -->
+    <path d="M 272 192 L 316 192 C 328 192 338 202 338 214 C 338 226 328 236 316 236 L 272 236 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" />
+    <circle cx="316" cy="214" r="7" fill="#6366F1" />
+  </g>
+
+  <!-- Vector-drawn Taka Sign "৳" -->
+  <g fill="#14B8A6">
+    <path d="M 188 180 C 177 180 167 188 167 199 C 167 210 175 217 186 217 C 196 217 203 211 206 203 C 209 210 216 216 225 216 C 237 216 244 207 244 196 L 244 186 L 230 186 L 230 196 C 230 200 227 203 223 203 C 219 203 215 199 215 193 L 215 180 Z M 186 192 C 190 192 194 195 194 199 C 194 203 190 205 186 205 C 183 205 179 203 179 199 C 179 195 183 192 186 192 Z" />
+    <path d="M 230 204 L 230 262 C 230 266 227 269 223 269 C 219 269 216 266 216 262 L 216 245 L 202 245 L 202 262 C 202 273 211 282 223 282 C 235 282 244 273 244 262 L 244 204 Z" />
+    <rect x="206" y="228" width="48" height="13" rx="6.5" fill="#6366F1" />
+  </g>
+</svg>

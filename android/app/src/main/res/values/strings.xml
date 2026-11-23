@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Tohobil</string>
+    <string name="title_activity_main">Tohobil</string>
+    <string name="package_name">com.tohobil.app</string>
+    <string name="custom_url_scheme">com.tohobil.app</string>
+    <string name="shortcut_add_expense_short">Add expense</string>
+    <string name="shortcut_add_expense_long">Record a new expense</string>
+    <string name="shortcut_add_income_short">Add income</string>
+    <string name="shortcut_add_income_long">Record a new income</string>
+    <string name="shortcut_add_proof_short">Add proof</string>
+    <string name="shortcut_add_proof_long">Capture or upload receipt proof</string>
+    <string name="widget_name">Tohobil Balance</string>
+    <string name="widget_description">View balance and quick-add expenses or income</string>
+    <string name="widget_default_balance">৳ 0.00</string>
+    <string name="widget_add_expense">+ Expense</string>
+    <string name="widget_add_income">+ Income</string>
+    <string name="push_channel_security">Account and security</string>
+    <string name="push_channel_announcements">Announcements and offers</string>
+</resources>

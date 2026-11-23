@@ -1,0 +1,26 @@
+node_modules/
+dist/
+android/.gradle/
+android/local.properties
+*.log
+.env
+.env.*
+!.env.example
+api/config/config.php
+api/storage/*
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/build/
+android/app/build/
+*.jks
+*.keystore
+
+*.tsbuildinfo
+
+# Private server directories & credentials
+api/writable/firebase/*
+!api/writable/firebase/.gitkeep
+api/writable/uploads/users/*
+!api/writable/uploads/users/.gitkeep
+api/public/uploads/push/*
+!api/public/uploads/push/.gitkeep

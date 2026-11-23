@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">তহবিল</string>
+    <string name="title_activity_main">তহবিল</string>
+    <string name="shortcut_add_expense_short">খরচ যোগ</string>
+    <string name="shortcut_add_expense_long">নতুন খরচ লিখুন</string>
+    <string name="shortcut_add_income_short">আয় যোগ</string>
+    <string name="shortcut_add_income_long">নতুন আয় লিখুন</string>
+    <string name="shortcut_add_proof_short">রসিদ যোগ</string>
+    <string name="shortcut_add_proof_long">রসিদের ছবি তুলুন বা আপলোড করুন</string>
+    <string name="widget_name">তহবিল ব্যালেন্স</string>
+    <string name="widget_description">ব্যালেন্স দেখুন এবং দ্রুত খরচ বা আয় যোগ করুন</string>
+    <string name="widget_default_balance">৳ ০.০০</string>
+    <string name="widget_add_expense">+ খরচ</string>
+    <string name="widget_add_income">+ আয়</string>
+    <string name="push_channel_security">অ্যাকাউন্ট ও নিরাপত্তা</string>
+    <string name="push_channel_announcements">ঘোষণা ও অফার</string>
+</resources>

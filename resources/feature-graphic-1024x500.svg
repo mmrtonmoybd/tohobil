@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 500" width="1024" height="500">
+  <defs>
+    <linearGradient id="featGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="40%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <filter id="featShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <rect width="1024" height="500" fill="url(#featGrad)" />
+
+  <!-- Background decorative geometric circles -->
+  <circle cx="950" cy="80" r="180" fill="#ffffff" opacity="0.06" />
+  <circle cx="80" cy="420" r="140" fill="#ffffff" opacity="0.05" />
+
+  <!-- Left: Big Logo Icon -->
+  <g transform="translate(120, 100)" filter="url(#featShadow)">
+    <rect width="300" height="300" rx="68" fill="#ffffff" />
+    <!-- Wallet -->
+    <path d="M 66 100 C 66 87 77 76 90 76 L 210 76 C 223 76 234 87 234 100 L 234 116 L 66 116 Z" fill="#E2E8F0" />
+    <rect x="56" y="94" width="188" height="132" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2" />
+    <path d="M 198 136 L 236 136 C 246 136 254 144 254 154 C 254 164 246 172 236 172 L 198 172 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" />
+    <circle cx="235" cy="154" r="6" fill="#14B8A6" />
+
+    <!-- Vector Taka Sign -->
+    <g fill="#14B8A6">
+      <path d="M 126 126 C 117 126 109 133 109 142 C 109 151 115 157 125 157 C 133 157 139 152 141 145 C 144 151 150 156 158 156 C 168 156 174 148 174 139 L 174 130 L 162 130 L 162 139 C 162 142 160 145 156 145 C 153 145 149 141 149 136 L 149 126 Z M 125 137 C 128 137 131 140 131 143 C 131 146 128 148 125 148 C 122 148 119 146 119 143 C 119 140 122 137 125 137 Z" />
+      <path d="M 162 146 L 162 194 C 162 197 159 200 156 200 C 153 200 150 197 150 194 L 150 180 L 138 180 L 138 194 C 138 204 146 211 156 211 C 166 211 174 204 174 194 L 174 146 Z" />
+      <rect x="142" y="166" width="40" height="11" rx="5.5" fill="#6366F1" />
+    </g>
+  </g>
+
+  <!-- Right: Typography & Highlights -->
+  <text x="470" y="190" font-family="-apple-system, Roboto, 'Hind Siliguri', sans-serif" font-size="64" font-weight="800" fill="#FFFFFF" letter-spacing="1">
+    Tohobil · তহবিল
+  </text>
+  <text x="470" y="246" font-family="-apple-system, Roboto, 'Hind Siliguri', sans-serif" font-size="28" font-weight="600" fill="#CCFBF1">
+    সহজ হিসাব, নিশ্চিন্ত জীবন
+  </text>
+  <text x="470" y="300" font-family="-apple-system, Roboto, 'Hind Siliguri', sans-serif" font-size="20" font-weight="400" fill="#E0E7FF">
+    Personal Financial Manager &amp; Dena-Paona
+  </text>
+
+  <!-- Feature badges -->
+  <g transform="translate(470, 335)">
+    <rect x="0" y="0" width="145" height="36" rx="18" fill="#ffffff" opacity="0.15" />
+    <text x="72.5" y="23" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">100% Offline-First</text>
+
+    <rect x="155" y="0" width="145" height="36" rx="18" fill="#ffffff" opacity="0.15" />
+    <text x="227.5" y="23" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">SMS Auto-Fill</text>
+
+    <rect x="310" y="0" width="165" height="36" rx="18" fill="#ffffff" opacity="0.15" />
+    <text x="392.5" y="23" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Encrypted Vault</text>
+  </g>
+</svg>

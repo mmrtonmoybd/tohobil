@@ -1,0 +1,6 @@
+node_modules
+dist
+android/app/src/main/assets
+docs/SPEC.md
+prompt.txt
+android/

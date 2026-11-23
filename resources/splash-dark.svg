@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2732 2732" width="2732" height="2732">
+  <defs>
+    <linearGradient id="splashBrandGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+    <filter id="splashShadowDark" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="24" stdDeviation="32" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background Dark -->
+  <rect width="2732" height="2732" fill="#0B1120" />
+
+  <!-- Center Logo (scaled and centered around (1366, 1200)) -->
+  <g transform="translate(1110, 944) scale(1)">
+    <rect width="512" height="512" rx="115" fill="url(#splashBrandGradDark)" filter="url(#splashShadowDark)" />
+    
+    <!-- Wallet -->
+    <path d="M 112 170 C 112 148 130 130 152 130 L 360 130 C 382 130 400 148 400 170 L 400 196 L 112 196 Z" fill="#E2E8F0" opacity="0.85" />
+    <rect x="96" y="160" width="320" height="224" rx="36" fill="#FFFFFF" />
+    <path d="M 336 232 L 400 232 C 417.67 232 432 246.33 432 264 C 432 281.67 417.67 296 400 296 L 336 296 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" />
+    <circle cx="398" cy="264" r="10" fill="url(#splashBrandGradDark)" />
+
+    <!-- Vector Taka Sign -->
+    <g fill="#14B8A6">
+      <path d="M 216 214 C 200 214 186 226 186 242 C 186 257 198 268 214 268 C 228 268 238 259 242 248 C 246 258 256 266 270 266 C 286 266 296 254 296 238 L 296 224 L 276 224 L 276 238 C 276 244 272 248 266 248 C 260 248 254 242 254 234 L 254 214 Z M 214 232 C 220 232 225 237 225 242 C 225 247 220 251 214 251 C 209 251 204 247 204 242 C 204 237 209 232 214 232 Z" />
+      <path d="M 276 250 L 276 332 C 276 337 272 342 266 342 C 260 342 256 337 256 332 L 256 308 L 236 308 L 236 332 C 236 348 249 360 266 360 C 283 360 296 348 296 332 L 296 250 Z" />
+      <rect x="242" y="284" width="68" height="18" rx="9" fill="#6366F1" />
+    </g>
+  </g>
+
+  <!-- Bottom Wordmark "Tohobil · তহবিল" -->
+  <text x="1366" y="1700" text-anchor="middle" font-family="-apple-system, Roboto, 'Hind Siliguri', sans-serif" font-size="64" font-weight="700" fill="#E2E8F0" letter-spacing="2">
+    Tohobil · তহবিল
+  </text>
+  <text x="1366" y="1770" text-anchor="middle" font-family="-apple-system, Roboto, 'Hind Siliguri', sans-serif" font-size="28" font-weight="500" fill="#94A3B8" letter-spacing="1">
+    Personal Financial Manager
+  </text>
+</svg>
